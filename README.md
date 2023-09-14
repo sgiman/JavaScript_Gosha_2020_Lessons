@@ -10,7 +10,8 @@ and manage the HTML DOM structure of a website.
 We will learn basic concepts (variables, loops, conditions...) 
 and learn how to work with HTML (events, data processing, working with HTML).
 
-![hqdefault](https://github.com/sgiman/JavaScript_Lessons_2020/assets/7030369/93f4be98-11da-40f1-9561-624604894ebf)
+![hqdefault](https://github.com/sgiman/JavaScript_Lessons_2020/assets/7030369/bccafeae-c9eb-47bb-bbec-634ea526fe42)
+
 
 
 **Sgiman @ 2023**
