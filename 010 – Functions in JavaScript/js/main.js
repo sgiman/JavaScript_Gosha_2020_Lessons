@@ -7,6 +7,7 @@
  * Уроки JavaScript для начинающих с нуля!
  * Gosha Dudar (2020)
  * https://www.youtube.com/watch?v=fHl7UyRjOf0&list=PLDyJYA6aTY1kJIwbYHzGOuvSMNTfqksmk
+ *
  ****************************************************************************************
  * Writing by sgiman @ 2023
  */
