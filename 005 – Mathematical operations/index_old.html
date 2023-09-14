@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Изучаем язык JavaScript</title>
+    <!--<script type="text/javascript" src="script.js"></script>-->
+    <style>
+        .red {color: red;}
+        .blue {color: blue;}
+        .green {color: green;}
+    </style>
+</head>
+
+<body>
+<script type="text/javascript">
+
+    /***************************
+       004 - Math Operation:
+       +, -, *, /, %, ++, --
+     **************************/
+    var x = 5;
+    var y;
+    var result;
+    y = 5;
+
+    result = x + y;
+    document.write("<h2 class='red'>x + y = " + result + '</h2>');
+
+    result = x - y;
+    document.write("<h2 class='blue'>x - y = " + result + '</h2>');
+
+    result = x * y;
+    document.write("<h2 class='green'>x * y = " + result + '</h2>');
+
+    result = x / y; // 1
+    document.write("<h2>x / y = " + result + '</h2>');
+
+    //result = result + x;
+    // С-сокращение
+    result += x;    // 6
+    result -= x;    // 1
+    result *= x;    // 1
+    result /= x;    // 1
+    document.write('<h2>RESULT = ' + result + '</h2>')
+
+    //result = result + 1;
+    ++result;   // инкримент
+    //result = result - 1;
+    --result;   // декримент
+
+    document.write('<h2 class="red">' + x + " + " + y + " = " + x + y + '</h2>');       // не правильно!
+    document.write('<h2 class="blue">' + x + " + " + y + " = " + (x + y) + '</h2>');    // правильно!!!
+
+    var str_1 = 12;
+    var str_2 = 24;
+    document.write('<h2>' + str_1 + str_2 + '</h2>');   // 1224
+    document.write('<h2 class="blue">' + (Number(str_1) + Number(str_2)) + '</h2>'); // 36
+
+    var bool;
+    var z = 6;
+    var d = 7;
+
+    /*************************
+      Операторы сравнения:
+      >, <. ==, !=,  >=, <=
+     ************************/
+    bool = z < d;
+    document.write('<h2 class="red">' + bool + '</h2>');
+
+    bool = z > d;
+    document.write('<h2 class="blue">' + bool + '</h2>');
+
+    bool = z == d;
+    document.write('<h2 class="green">' + bool + '</h2>');
+    document.write('<h2 class="red">' + "ОCТАТОК ОТ ДЕЛЕНИЯ: "  + 10 + " % "  + 7 + " = " + (10 % 7) + '</h2>');
+
+</script>
+
+    <br><br>
+    <img src="img/SGI_021.png" alt="SGI" title="SGI-SCS"/>
+
+</body>
+
+</html>

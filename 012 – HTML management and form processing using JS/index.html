@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Тестовая страница">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>JavaScript</title>
+</head>
+
+<body>
+<div class="center">
+<h1>012 – Управление HTML и обработка форм при помощи JS</h1>
+<p id="text" title="title text">Text</p>
+<span class="simple-text">Text 1</span>
+<span class="simple-text">Text 2</span>
+<span class="simple-text">Text 3</span>
+</div>
+
+<div class="dform">
+<!-- <form action="" method="post" id="main-form" onsubmit="return checkForm(this)">-->
+    <form action="" method="post" id="main-form">
+
+    <label for="name">Имя:</label>
+    <input type="text" name="name" paceholder="Имя" id="name"><br><br>
+
+    <label for="pass">Пароль:</label>
+    <input type="password" name="password" paceholder="Пароль" id="pass"><br><br>
+
+    <label for="repass">Проверка пароля:</label>
+    <input type="password" name="repass" paceholder="Проверка пароля" id="repass"><br><br>
+
+    <span>Пол</span>
+
+    <input type="radio" name="state" id="male" value="Мужской">
+    <label for="male">Мужской</label>
+
+    <input type="radio" name="state" id="female" value="Женский">
+    <label for="female">Женский</label>
+
+    <br><br>
+    <div id="error" class="t_red"></div>
+    <br>
+    <input class="button" type="submit" name="submit" value="Готово">
+
+</form>
+</div>
+
+<div class="center">
+<br><br>
+<img src="img/SGI_021.png" alt="SGI" title="SGI-SCS"/>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+
+</html>

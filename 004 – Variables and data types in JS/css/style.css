@@ -1,0 +1,46 @@
+/**************************************
+ * style.css
+ *
+ * LESSONS for CSS3
+ * from GOSHA DUDAR (2015)
+ * ------------------------------------
+ * Writing by sgiman @ 2022-2023
+ **************************************/
+
+* { /* применяется абсалютно ко всему документу */
+    /* font-size: 20px; */
+}
+
+html  {
+    background-color: #fbf5eb;
+    font-family: Roboto, sans-serif;
+}
+
+
+/* body {background-color: #fbf5eb;} */
+body {
+    text-align: center;
+}
+
+/* for tag h1,h2,h3 */
+h1 {color: red;}
+h2 {color: blue;}
+h3 {color: darkgreen; }
+
+#header_1 {color: brown;}                                   /* for id1 */
+#header_2 {color: green;}                                   /* for id2 */
+
+h3.style {color: chocolate;}                                /* class - only for h3 */
+
+p.style {background-color: darkred; color: #fbf5eb}         /* class - only for p */
+
+p i {
+    color: blueviolet;
+    size: 24px;
+    font-family: Impact, sans-serif;
+}
+
+p.example,b {
+    font-size: 30px;
+    font-weight: normal
+}
