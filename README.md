@@ -2,7 +2,7 @@
 JavaScript lessons for beginners from scratch! (2020)
 
 ## JavaScript Lessons for Beginners
-https://www.youtube.com/watch?v=fHl7UyRjOf0&list=PLDyJYA6aTY1kJIwbYHzGOuvSMNTfqksmk&index=1
+https://www.youtube.com/playlist?list=PLDyJYA6aTY1kJIwbYHzGOuvSMNTfqksmk
 
 Lessons on learning the JavaScript programming language. 
 During the course we will learn how to write code in JS 
